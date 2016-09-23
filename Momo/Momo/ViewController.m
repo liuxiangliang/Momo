@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    NSLog(@"打印一句话");
     
 }
 
