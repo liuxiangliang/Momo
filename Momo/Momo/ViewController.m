@@ -20,8 +20,9 @@
     NSLog(@"打印一句话");
     
     UIImageView *imageV=[[UIImageView alloc]init];
+    imageV.backgroundColor=[UIColor lightGrayColor];
     imageV.frame=CGRectMake(100, 100, 200, 300);
-    imageV.image=[UIImage imageNamed:@"6"];
+    imageV.image=[UIImage imageNamed:@"7"];
     [self.view addSubview:imageV];
     
     
