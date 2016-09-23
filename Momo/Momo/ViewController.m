@@ -19,6 +19,12 @@
     
     NSLog(@"打印一句话");
     
+    UIImageView *imageV=[[UIImageView alloc]init];
+    imageV.frame=CGRectMake(100, 100, 200, 300);
+    imageV.image=[UIImage imageNamed:@"6"];
+    [self.view addSubview:imageV];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
